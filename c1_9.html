@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>background</title>
+</head>
+<body><center>
+<h1 id="h"> <u> WELCOME TO HTML..</u></h1></center>
+<p><font size="4">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</font></p>
+<hr><center>
+Change your Webpage Background To:
+<button onclick="changeback('lightblue')"> Blue </button>
+<button onclick="changeback('lightgreen')"> Green </button>
+<button onclick="changeback('lightpink')"> Pink </button>
+<br>
+<br>
+Change your Heading Background To:
+
+
+<button onclick="changehead('red')"> Red </button>
+<button onclick="changehead('green')"> Green </button>
+<button onclick="changehead('blue')"> Blue </button>
+<script>
+
+
+
+function changeback(color) 
+{
+		document.body.style.background=color
+} 
+function changehead(color) 
+{
+		var c=document.getElementById("h");
+		c.style.background=color
+}
+</script></center>
+</body>
+</html>
